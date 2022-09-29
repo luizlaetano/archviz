@@ -1,10 +1,10 @@
 body {
-    align-items: center;
     background-color: rgb(30, 30, 30);
     width: 100vw;
     height: 100vh;
-    overflow: scroll;
-    scroll-snap-type: both mandatory;
+    margin: auto;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
 }
 
 header {
@@ -27,18 +27,18 @@ main {
     background-color: rgb(40, 40, 40);
     width: fit-content;
     height: fit-content;
-    margin: 64px;
-    padding: 96px;
-    border-radius: 32px;
+    padding: 48px;
+    margin: 32px;
+    border-radius: 16px;
     scroll-snap-align: center;
     }
 
 img {
     display: block;
     margin: auto;
-    height: 80vh;
+    height: 70vh;
     width: auto;
-    border-radius: 16px;
+    border-radius: 8px;
 }
 
 h1 {
