@@ -11,15 +11,6 @@ body {
     scroll-snap-type: y mandatory;
     }
 
-.container-h {
-    display: flex;
-    justify-content: center;
-    width: fit-content;
-    height: fit-content;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    }
-     
 .section-v {
     background-color: rgb(60, 60, 60);
     width: fit-content;
@@ -29,8 +20,15 @@ body {
     scroll-snap-align: center;
     }
 
+.container-h {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    }
+     
 .section-h {
-    flex: none;
     background-color: rgb(60, 60, 60);
     width: fit-content;
     height: fit-content;
@@ -44,19 +42,7 @@ h1 {
 }
 
 img {
-    max-width: 100%;
+    width: 100vw;
     max-height: auto;
     padding: 4px;
-}
-
-.img-left{
-    align-content: right;
-}
-
-.img-center{
-    align-self: center;
-}
-
-.img-right{
-    align-items: left;
 }
