@@ -1,26 +1,36 @@
-nav ul li{
-    display: inline-block;
+body {
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    scroll-snap-type: both mandatory;
 }
 
-body {
-    width: 90vw;
-    height: 90vh;
-    margin: 96px;
-    background-color: rgb(30, 30, 30);
+header {
+    background-color: rgb(40, 40, 40);
+    min-width: 100vw;
+    height: 128px;
+}
+
+nav ul li{
+    display: inline-flex;
+    color: rgb(180, 180, 180);
+    font-size: 128px;
+}
+
+main {
+    display: flex;
 }
 
 .container {
-    display: flex;
     background-color: rgb(40, 40, 40);
     width: fit-content;
     height: fit-content;
-    margin-left: auto;
-    margin-left: auto;
-    margin: 64px auto 64px auto;
+    margin: 64px;
     padding: 96px;
     border-radius: 32px;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
+    scroll-snap-align: center;
     }
 
 img {
@@ -29,7 +39,6 @@ img {
     height: 80vh;
     width: auto;
     border-radius: 16px;
-    scroll-snap-align: center;
 }
 
 h1 {
