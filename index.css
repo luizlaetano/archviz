@@ -1,6 +1,6 @@
 body {
     background-color: rgb(30, 30, 30);
-    min-height: 100vh;
+    height: 100vh;
     display: grid;
     place-items: center;
     scroll-snap-type: x mandatory;
@@ -27,7 +27,6 @@ main {
 }
 
 .container {
-    display: flex;
     background-color: rgb(40, 40, 40);
     width: fit-content;
     height: fit-content;
