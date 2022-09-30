@@ -1,42 +1,52 @@
 <!DOCTYPE html>
-<html lang="'pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>ctrl+n</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <h1>ctrl+n</h1>;
-            </nav>
-        </header>
-        <main>
-            <div class="container">
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ctrl+n</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-container">
+                <a href="#home" id="nav-logo">ctrl+n</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="render" id="render">
+            <div class="render-container">
                 <img src="renders/cozinha.jpg">
             </div>
-            <div class="container">
+            <div class="render-container">
                 <img src="renders/estar.jpg">
             </div>
-            <div class="container">
+            <div class="render-container">
                 <img src="renders/gourmet.jpg">
             </div>
-            <div class="container">
+            <div class="render-container">
                 <img src="renders/home.jpg">
             </div>
-            <div class="container">
+            <div class="render-container">
                 <img src="renders/jantar.jpg">
             </div>
-            <div class="container">
+            <div class="render-container">
                 <img src="renders/suiteA.jpg">
             </div>
-            <div class="container">
+            <div class="render-container">
                 <img src="renders/suiteB.jpg">
             </div>
-        </main>
-        <footer>
-            
-        </footer>
-    </body>
+        </div>
+    </main>
+    <footer>
+        <nav class="nav-bar">
+            <div class="nav-container">
+                <a href="#contact" class="button" id="contact-page">Contato</a>
+            </div>
+        </nav>        
+    </footer>
+    <script src="app.js"></script>
+</body>
 </html>
